@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.whoiam{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+    h3{
+        font-size: 2em;
+        color:#cacaca; 
+    }
+    p{
+        font-size: 1.3em;
+        color:#8a8a8a;
+    }
+}
