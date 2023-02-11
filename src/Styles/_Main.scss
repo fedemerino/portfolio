@@ -1,20 +1,67 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
 }
-.whoiam{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    
-    h3{
-        font-size: 2em;
-        color:#cacaca; 
-    }
-    p{
-        font-size: 1.3em;
-        color:#8a8a8a;
-    }
+
+.whoiam {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+
+  h3 {
+    font-size: 2em;
+    color: #cacaca;
+  }
+  p {
+    font-size: 1.3em;
+    color: #8a8a8a;
+  }
+}
+
+.social {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram,
+.linkedin,
+.github {
+  display: grid;
+  place-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  img {
+    width: 2.5rem;
+  }
+  transition: all 0.2s ease;
+  &:hover {
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+}
+.instagram, .igbg {
+    background-image: url('/instagram.png');
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+.linkedin, .linkedinBg {
+  background-color: #0076b2;
+}
+.github, .githubBg {
+  background-color: #5c5a5a;
 }
