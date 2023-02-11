@@ -9,8 +9,6 @@ const Projects = () => {
       <div>
         <p className="projectText">
           Here you can take a look at the projects i've been working on.
-        </p><p className="projectText">
-          You can click on GitHub logo if you want to check out the repository.
         </p>
       </div>
       <div className="projectsContainer">
