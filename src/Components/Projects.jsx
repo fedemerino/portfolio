@@ -12,7 +12,7 @@ const Projects = () => {
         </p>
       </div>
       <div className="projectsContainer">
-      <Project name={'Starbucks clone (under construction)'} img={'/sbmenu.png'} github={'https://github.com/fedemerino/starbucksclone'}/>
+      <Project name={'Starbucks clone (under construction)'} img={'/sbmenu.png'} github={'https://github.com/fedemerino/starbucksclone'} link={'https://starbucksclone-nine.vercel.app/'}/>
       <Project name={'Where to watch (under construction)'} img={'/wtw.png'} github={'https://github.com/fedemerino/wheretowatch'}/>
       <Project name={'e-commerce'} img={'/ecommerce.png'} github={'https://github.com/fedemerino/e-Commerce-JavaScript'}/>
       </div>
