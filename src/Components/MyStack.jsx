@@ -5,7 +5,7 @@ const MyStack = () => {
     
     return (
         <>
-            <h2 className='stackTitle'>Skillset</h2>
+            <h2 className='stackTitle'>Skills</h2>
             <div className='skillCardContainer'>
                 <SkillCardContainer/>
                 <SkillCardContainer/>
