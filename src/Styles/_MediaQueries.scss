@@ -1,0 +1,48 @@
+@media screen and (max-device-width: 1174px) {
+  .nav {
+    justify-content: center;
+  }
+  .certificationCard {
+    width: 80vw;
+  }
+  .skillCardContainer {
+    width: 80vw;
+  }
+  .projectsContainer {
+    grid-column-gap: 5rem;
+  }
+  .projectContainer{
+    width: 25rem;
+    height: 18rem;
+  }
+  .projectImg{
+    width: 25rem;
+    height: 18rem;
+  }
+  .githubLogo{
+    left: 11.5rem;
+  }
+}
+@media screen and (max-device-width: 1000px) {
+  .projectsContainer {
+    grid-column-gap: 5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+@media screen and (max-device-width: 500px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+  .main {
+    min-height: 50vh;
+  }
+  .certificationCard {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .certificationTitleContainer {
+    width: auto;
+  }
+}

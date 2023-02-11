@@ -23,7 +23,7 @@
 
 .projectsContainer {
   display: grid;
-  grid-template-columns: repeat(2, 40% [col-start]);
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10rem;
   grid-row-gap: 5rem;
 }
