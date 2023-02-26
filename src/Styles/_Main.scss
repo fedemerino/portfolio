@@ -1,68 +1,31 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   min-height: 90vh;
 }
 
 .whoiam {
+  margin-left: 10rem;
+  margin-top: 6rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-
-  h3 {
-    font-size: 2em;
-    color: #cacaca;
+  text-align: start;
+  h1 {
+    font-size: 5em;
+    font-weight: 700;
+    color: #F8F4E3;
+    margin: 0;
+  }
+  h2{
+    font-size: 5em;
+    color: #f8f4e3d8;
+    margin: 0;
   }
   p {
-    font-size: 1.3em;
-    color: #8a8a8a;
+    font-size: 1.15em;
+    color: #64ffda;
   }
 }
-
-.social {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.instagram,
-.linkedin,
-.github {
-  display: grid;
-  place-items: center;
-  height: 3.5rem;
-  width: 3.5rem;
-  img {
-    width: 2.5rem;
-  }
-  transition: all 0.2s ease;
-  &:hover {
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-  }
-}
-.instagram, .igbg {
-    background-image: url('/instagram.png');
-  background: #d6249f;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
- 
-}
-.linkedin, .linkedinBg {
-  background-color: #0076b2;
-}
-.github, .githubBg {
-  background-color: #5c5a5a;
+p{
+  color: #91ccbd46;
 }

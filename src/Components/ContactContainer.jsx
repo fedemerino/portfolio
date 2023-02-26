@@ -3,7 +3,7 @@ import AnimateBottomLeft from './AnimateBottomLeft'
 import Contact from './Contact'
 const ContactContainer = () => {
     return (
-        <div className='main'>
+        <div className='main' style={{justifyContent:'center',alignItems:'center'}}>
             <AnimateBottomLeft>
                 <Contact />
             </AnimateBottomLeft>

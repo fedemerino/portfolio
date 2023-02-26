@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
 const WhoIAm = () => {
   return (
-  <> 
-    <div className='whoiam'>
-        <h3>Hello, my name is Federico Merino.</h3>
-        <p>I am a <strong>Frontend Developer</strong> based in <b>Argentina</b>.</p>
-        <p>I am currently studying <strong>Systems Engineering</strong>.</p>
-        <p>Feel free to take a look at <b>my projects.</b></p>
-    </div>
-    
-  </>
-  )
-}
+    <>
+      <div className="whoiam">
+        <p>Hello, my name is</p>
+        <h1>Federico Merino.</h1>
+        <h2>I turn ideas into reality.</h2>
+      </div>
+    </>
+  );
+};
 
-export default WhoIAm
+export default WhoIAm;

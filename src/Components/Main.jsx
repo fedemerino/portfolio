@@ -1,8 +1,9 @@
 import React from 'react'
 import About from './About'
+import ProjectsContainer from './ProjectsContainer'
 import ContactContainer from './ContactContainer'
 import Skills from './Skills'
-import ProjectsContainer from './ProjectsContainer'
+
 import { Route, Routes, useLocation } from "react-router-dom"
 import { AnimatePresence } from 'framer-motion'
 const Main = () => {

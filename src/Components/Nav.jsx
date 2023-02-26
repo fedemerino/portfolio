@@ -1,15 +1,51 @@
-import React from 'react'
-import StyledButton from './StyledButton'
-import {Link} from 'react-router-dom'
+import React from "react";
+import StyledButton from "./StyledButton";
+import { Link } from "react-router-dom";
 const Nav = () => {
   return (
-    <div className='nav'>
-        <Link to='/about' style={{'textDecoration':'none'}}><StyledButton variant={"outlined"} innerText='About' color={'#cacaca'}/></Link>
-        <Link to='/skills'style={{'textDecoration':'none'}}><StyledButton variant={"outlined"}  innerText='Skills' color={'#cacaca'}/></Link>
-        <Link to='/projects'style={{'textDecoration':'none'}}><StyledButton variant={"outlined"}  innerText='Projects' color={'#cacaca'}/></Link>
-        <Link to='/contact'style={{'textDecoration':'none'}}><StyledButton variant={"outlined"}  innerText='Contact' color={'#cacaca'}/></Link>
+    <div className="nav">
+      <Link to="/about" style={{ textDecoration: "none" }}>
+        <div className="navLinkContainer">
+          <div className="navLink">
+          <div style={{display: 'flex'}}>
+              <p className="navLinkNumber">01.</p>
+              <p className="navLinkText">ABOUT ME</p>
+            </div>
+          </div>
+        </div>
+      </Link>
+      <Link to="/skills" style={{ textDecoration: "none" }}>
+        <div className="navLinkContainer">
+          <div className="navLink">
+            <div style={{display: 'flex'}}>
+              <p className="navLinkNumber">02.</p>
+              <p className="navLinkText">SKILLS</p>
+            </div>
+          </div>
+        </div>
+      </Link>
+      <Link to="/projects" style={{ textDecoration: "none" }}>
+        <div className="navLinkContainer">
+          <div className="navLink">
+          <div style={{display: 'flex'}}>
+              <p className="navLinkNumber">03.</p>
+              <p className="navLinkText">PROJECTS</p>
+            </div>
+          </div>
+        </div>
+      </Link>
+      <Link to="/contact" style={{ textDecoration: "none" }}>
+        <div className="navLinkContainer">
+          <div className="navLink">
+          <div style={{display: 'flex'}}>
+              <p className="navLinkNumber">04.</p>
+              <p className="navLinkText">CONTACT</p>
+            </div>
+          </div>
+        </div>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
