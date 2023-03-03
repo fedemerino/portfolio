@@ -4,16 +4,18 @@ const StyledButton = ({ innerText, color, onClick, type, variant, bg,bgHover,dis
   
   return (
     <Button disabled={disabled} type={type} onClick={onClick} variant={variant} sx={{
-      background: bg!=undefined ? bg : 'transparent',
+      background: bg ? bg : 'transparent',
       'fontFamily': '"Montserrat", sans-serif',
-      'fontWeight': 'bold',
+      'fontWeight': '400',
       color: color,
       border: '1px solid ' + color,
-      margin: '1rem 1rem 1rem 1rem',
+      borderRadius: '3px',
+      marginTop: '2rem',
+      padding: '0.75rem 1.3rem 0.75rem 1.3rem',
       'min-width': 0,
       '&:hover': {
         border: '1px solid ' + color,
-        background: bgHover!=undefined? bgHover:null
+        background: bgHover ? bgHover:null
       }
     }}>{innerText}</Button>
   )

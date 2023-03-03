@@ -45,7 +45,7 @@ const Contact = () => {
     <ThemeProvider theme={theme}>
       <div className='contactContainer'>
         <div className='contactTitleContainer'>
-          <span className='contactTitle'>Contact</span>
+          <span className='contactTitle'><span className='contactTitleNumber'>04.</span> Get in touch</span>
         </div>
         <div className='contactTextContainer'>
           <p className='contactText'>If you want to get in touch with me, either for work, for project ideas, or anything
@@ -56,13 +56,13 @@ const Contact = () => {
             className='formContainer'
             onSubmit={handleSubmit(onSubmit)}
           >
-            <TextField sx={{ 'minWidth': '60vw', '&>label': { 'color': '#cacaca' }, '&>div>input': { 'color': '#8a8a8a' } }} color='white' variant={"filled"} autoComplete='off' {...register(
+            <TextField sx={{ 'minWidth': '60vw', '&>label': { 'color': '#cacaca' }, '&>div>input': { 'color': '#cacaca' }, '&>div:hover:before': { borderBottom: '1px solid #8A8A8A !important', transition: 'all ease 1s' } }} color='font' variant={"filled"} autoComplete='off' {...register(
               "name",
               { required: requiredField }
             )} label="Name"
             />
             <p className='requiredText'>{errors.name?.message}</p>
-            <TextField sx={{ 'minWidth': '60vw', '&>label': { 'color': '#cacaca' }, '&>div>input': { 'color': '#8a8a8a' } }} color='font' variant={"filled"} autoComplete='off' {...register(
+            <TextField sx={{ 'minWidth': '60vw', '&>label': { 'color': '#cacaca' }, '&>div>input': { 'color': '#cacaca' }, '&>div:hover:before': { borderBottom: '1px solid #8A8A8A !important', transition: 'all ease 1s' } }} color='font' variant={"filled"} autoComplete='off' {...register(
               "email",
               {
                 required: requiredField, pattern: {
@@ -73,7 +73,7 @@ const Contact = () => {
             )} label="Email"
             />
             <p className='requiredText'>{errors.email?.message}</p>
-            <TextField sx={{ 'minWidth': '60vw', '&>label': { 'color': '#cacaca' }, '&>div>input': { 'color': '#8a8a8a' } }} color='font' variant={"filled"} autoComplete='off' {...register(
+            <TextField sx={{ 'minWidth': '60vw', '&>label': { 'color': '#cacaca' }, '&>div>input': { 'color': '#cacaca' }, '&>div:hover:before': { borderBottom: '1px solid #8A8A8A !important', transition: 'all ease 1s' } }} color='font' variant={"filled"} autoComplete='off' {...register(
               "msg",
               { required: requiredField }
             )} label="Message"
@@ -81,11 +81,9 @@ const Contact = () => {
             <p className='requiredText'>{errors.msg?.message}</p>
             {msgSent ? <p className='msgSent'>{msgSentText}</p> : null}
             <div className='submitContainer'>
-              <StyledButton disabled={disabled} variant={"contained"} type={"submit"} innerText={"Submit"} color={"#cacaca"} bgHover={"#cacaca4f"} />
+              <StyledButton disabled={disabled} variant={"contained"} type={"submit"} innerText={"Submit"} color={"#64ffda"} bgHover={"rgba(100,255,218,0.1)"} />
             </div>
           </form>
-        </div>
-        <div className='socialMediaContainer'>
         </div>
       </div>
     </ThemeProvider>

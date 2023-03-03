@@ -4,28 +4,78 @@
   min-height: 90vh;
 }
 
+.homeContainer{
+  display: flex;
+}
+
 .whoiam {
-  margin-left: 10rem;
-  margin-top: 6rem;
-  text-align: center;
+  margin-left: 15rem;
+  margin-top: 8rem;
   font-family: "Montserrat", sans-serif;
   text-align: start;
+  width: 80%;
+
   h1 {
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: 700;
     color: #F8F4E3;
     margin: 0;
   }
-  h2{
-    font-size: 5em;
+
+  h2 {
+    font-size: 5rem;
     color: #f8f4e3d8;
     margin: 0;
   }
-  p {
-    font-size: 1.15em;
-    color: #64ffda;
+
+}
+
+.whoiamHello {
+  font-size: 1.15rem;
+  color: #64ffda;
+  letter-spacing: 0.5px;
+}
+
+
+.whoiamDescription {
+  font-family: 'Montserrat', sans-serif;
+  margin: 1.5rem 0 0 0;
+  font-size: 1.15rem;
+  color: #cacaca;
+  line-height: 24px;
+  max-width: 51rem;
+  letter-spacing: 0.5px;
+  p{
+    margin: 0;
   }
 }
-p{
-  color: #91ccbd46;
+
+.socialMediaContainer{
+  display: flex;
+  justify-content: end;
+  padding-top: 40vh;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social {
+  width: 24px;
+  transition: all ease 0.3s;
+  &:hover {
+    filter: invert(66%) sepia(53%) saturate(405%) hue-rotate(103deg) brightness(166%) contrast(104%);
+    transform: translateX(-5px);
+  }
+}
+
+.socialEmail{
+  color: #cacaca;
+  writing-mode: vertical-lr;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
 }

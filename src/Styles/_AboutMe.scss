@@ -1,0 +1,48 @@
+.aboutMeContainer{
+    display: flex;
+}
+.aboutMe {
+    padding-left: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    margin-right: 13rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    width: 60%;
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+    background:
+    linear-gradient(to right, #64ffda 3px, transparent 3px) 0 0,
+    linear-gradient(to left, #64ffda 3px, transparent 3px) 100% 100%,
+    linear-gradient(to bottom, #64ffda 3px, transparent 3px) 0 0,
+    linear-gradient(to top, #64ffda 3px, transparent 3px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20rem 15rem;
+}
+
+.techContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    height: 11rem;
+}
+
+.tech{
+    margin-top: 4rem;
+    li{
+        width: fit-content;
+        transition: all ease .5s;
+        cursor:default;
+        &:hover{
+            color: #64ffdbbb;
+        }
+    }
+}
+
+.liDot{
+    font-size: 1rem;
+    color: #64ffda;
+    text-align: center;
+}

@@ -4,22 +4,22 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="nav">
-      <Link to="/about" style={{ textDecoration: "none" }}>
+      <Link to="/" style={{ textDecoration: "none" }}>
         <div className="navLinkContainer">
           <div className="navLink">
           <div style={{display: 'flex'}}>
               <p className="navLinkNumber">01.</p>
-              <p className="navLinkText">ABOUT ME</p>
+              <p className="navLinkText">HOME</p>
             </div>
           </div>
         </div>
       </Link>
-      <Link to="/skills" style={{ textDecoration: "none" }}>
+      <Link to="/about" style={{ textDecoration: "none" }}>
         <div className="navLinkContainer">
           <div className="navLink">
             <div style={{display: 'flex'}}>
               <p className="navLinkNumber">02.</p>
-              <p className="navLinkText">SKILLS</p>
+              <p className="navLinkText">ABOUT ME</p>
             </div>
           </div>
         </div>

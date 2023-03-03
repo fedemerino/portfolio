@@ -1,7 +1,7 @@
 import React from "react";
 import AnimateBottomLeft from "./AnimateBottomLeft";
 import WhoIAm from "./WhoIAm";
-const About = () => {
+const Home = () => {
   return (
     <div className="main">
       <AnimateBottomLeft>
@@ -11,4 +11,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;
