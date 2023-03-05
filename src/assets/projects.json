@@ -1,0 +1,10 @@
+[
+    {
+        "img" : "nuestrocafe.png",
+        "name":"Starbucks Clone",
+        "description":"Starbucks Argentina design and functionalities replicated with reusable components.",
+        "tech":["React","Bootstrap","SASS"],
+        "repository":"https://github.com/fedemerino/starbucksclone",
+        "deploy":"https://starbucksclone-nine.vercel.app/"
+    }
+]

@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  min-height: 90vh;
+  overflow-y: hidden;
 }
 
 .homeContainer{
@@ -45,6 +45,7 @@
   line-height: 24px;
   max-width: 51rem;
   letter-spacing: 0.5px;
+  text-align: justify;
   p{
     margin: 0;
   }
@@ -52,8 +53,8 @@
 
 .socialMediaContainer{
   display: flex;
-  justify-content: end;
-  padding-top: 40vh;
+  height: 80vh;  
+  align-items: flex-end;
 }
 
 .socialMedia {
@@ -68,7 +69,7 @@
   transition: all ease 0.3s;
   &:hover {
     filter: invert(66%) sepia(53%) saturate(405%) hue-rotate(103deg) brightness(166%) contrast(104%);
-    transform: translateX(-5px);
+    transform: translateX(-5px); 
   }
 }
 

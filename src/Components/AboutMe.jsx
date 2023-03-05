@@ -10,7 +10,7 @@ const AboutMe = () => {
                     <div className='contactTitleContainer'>
                         <span className='contactTitle'><span className='contactTitleNumber'>02.</span> About me</span>
                     </div>
-                    <div className="whoiamDescription" style={{ textAlign: 'justify' }}>
+                    <div className="whoiamDescription">
                         I've been interest in technology since I'm a child.
                         Back then I managed to create a calculator and a web browser in Visual Basic.
                         It wasn't until I got into University that I started coding again.

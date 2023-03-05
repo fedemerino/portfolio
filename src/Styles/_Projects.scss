@@ -1,88 +1,87 @@
 .projectsContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 5rem;
-    font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .projectContainer {
-    display: flex;
+  display: flex;
 }
 
 .projectInfo {
-    display: flex;
-    flex-direction: column;
-    width: 25rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  z-index: 1;
 }
 
 .projectImg {
-    width: 450px;
-    height: 300px;
-    filter: blur(2px);
-    transition: all 0.3s;
+  width: 28rem;
+  height: 18.75rem;
+  transition: all 0.5s;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  filter: grayscale(.3);
+  & > img {
+    width: inherit;
+    height: inherit;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.09);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.8px);
+  }
 
-    &>img {
-        width: inherit;
-        height: inherit;
-        border-radius: 6px;
-    }
-
-    &:hover {
-        filter: blur(0px);
-    }
+  &:hover {
+    filter: grayscale(0);
+  }
 }
 
 .techList {
-    font-size: 0.9rem;
-    display: flex;
-    gap: 1rem;
-    color: #cacaca;
-    &>li {
+  font-size: 0.9rem;
+  display: flex;
+  gap: 1rem;
+  color: #cacaca;
+  & > li {
     transition: all ease 0.5s;
     cursor: default;
-    }
-    &>li:hover{
-        color: #64ffda;
-    }
+  }
+  & > li:hover {
+    color: #64ffda;
+  }
 }
 
 .projectLink {
-    width: 24px;
-    transition: all ease 0.3s;
+  width: 24px;
+  transition: all ease 0.3s;
 
-    &:hover {
-        filter: invert(66%) sepia(53%) saturate(405%) hue-rotate(103deg) brightness(166%) contrast(104%);
-    }
+  &:hover {
+    filter: invert(66%) sepia(53%) saturate(405%) hue-rotate(103deg)
+      brightness(166%) contrast(104%);
+  }
 }
 
 .projectTitleContainer {
-    display: flex;
+  display: flex;
 }
 
 .projectTitle {
-    font-weight: 700;
-    color: #cacaca;
-    font-size: 1.5rem;
+  font-weight: 700;
+  color: #cacaca;
+  font-size: 1.5rem;
+  transition: all ease 0.3s;
 }
 
 .projectDescription {
-    color: #cacaca;
+  color: #cacaca;
 }
 
 .projectLinks {
-    margin-top: 1rem;
-    display: flex;
-    gap: 1rem;
-    margin-right: 5rem;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-right: 5rem;
 }
-
