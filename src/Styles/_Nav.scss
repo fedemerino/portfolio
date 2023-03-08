@@ -1,3 +1,4 @@
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -14,7 +15,7 @@
 .navLink {
   overflow: hidden;
   .navLinkNumber {
-    font-family: 'Montserrat',sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #64ffda;
     padding-right: 10px;
   }
@@ -55,4 +56,14 @@
   background-color: transparent;
   width: 100%;
   transform: translateX(-50%);
+}
+.sandwichButton {
+  display: none;
+  justify-content: end;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }

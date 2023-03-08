@@ -123,11 +123,11 @@
   }
 }
 @media screen and (max-width: 1115px) {
-    /* HOME */
-    .whoiam{
-        margin-left: 5rem;
-        margin-right: 2rem;
-    }
+  /* HOME */
+  .whoiam {
+    margin-left: 5rem;
+    margin-right: 2rem;
+  }
   /* ABOUT ME */
   .contactTitleContainer {
     margin-top: 1.5rem;
@@ -138,50 +138,72 @@
   }
 }
 
-@media screen and (max-width: 962px){
-    .whoiam{
-        h1{
-            font-size: 3.6rem;
-        }
-        h2{
-            font-size: 3.6rem;
-            margin-bottom: 2rem;
-        }
+@media screen and (max-width: 962px) {
+  .whoiam {
+    h1 {
+      font-size: 3.6rem;
     }
-    .nav{
-        margin-right: 2rem;
+    h2 {
+      font-size: 3.6rem;
+      margin-bottom: 2rem;
     }
-    .aboutMe{
-        padding-right: 3rem;
-        width: 85vw;
-        margin-right: 5rem;
-        background-size: 20vw 20vh;
-    }
-    
-    
+  }
+  .nav {
+    margin-right: 2rem;
+  }
+  .aboutMe {
+    padding-right: 3rem;
+    width: 85vw;
+    margin-right: 5rem;
+    background-size: 20vw 20vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projectContainer{
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 636px) {
-    .whoiam{
-        margin-left: 2.5rem;
+  .whoiam {
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+    h1,
+    h2 {
+      font-size: 3rem;
     }
-    .techContainer{
-        height: 10rem;
+  }
+  .techContainer {
+    height: 10rem;
+  }
+  .nav {
+    display: none;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: end;
+    text-align: end;
+  }
+  .aboutMe {
+    margin: 1rem 0 0 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .whoiamDescription {
+    text-align: start;
+  }
+  .aboutMeContainer {
+    .socialMediaContainer {
+      display: none;
     }
-    .nav{
-        justify-content: center;
-    }
-    .aboutMe{
-        margin: 0 0 0 1rem;
-        padding-right: 1.5rem;
-        padding-left: 1.5rem;
-    }
-    .whoiamDescription{
-        text-align: start;
-    }
-    .aboutMeContainer{
-        .socialMediaContainer{
-            display: none;
-        }
-    }
+  }
+  .sandwichButton{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 500px){
+
 }
