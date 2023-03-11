@@ -45,6 +45,7 @@
   display: flex;
   gap: 1rem;
   color: #cacaca;
+  flex-wrap: wrap;
   & > li {
     transition: all ease 0.5s;
     cursor: default;

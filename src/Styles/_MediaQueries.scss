@@ -202,8 +202,30 @@
   .sandwichButton{
     display: flex;
   }
+  .projectContainer{
+    max-width: 90vw;
+    align-items: center;
+  }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 435px) {
+  .contactTitle{
+    font-size: 1.35rem;
+  }
+ .projectImg{
+  width: 85vw;
+  height: 35vh;
+ }
+ .projectInfo{
+  max-width: 90vw;
+ }
+}
 
+@media screen and (max-width: 300px){
+  .projectImg{
+    height: 25vh;
+  }
+  .contactTitle{
+    font-size: 1.2rem;
+  }
 }
