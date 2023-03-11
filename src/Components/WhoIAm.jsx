@@ -8,7 +8,7 @@ const WhoIAm = () => {
         <h1>Federico Merino.</h1>
         <h2>I turn ideas into reality.</h2>
         <p className="whoiamDescription">I'm a creative, proactive and detail-oriented Frontend Developer based in Argentina. Currently studying Systems Engineering. Feel free to take a look at my projects.</p>
-        <a href="./src/assets/Federico_Merino_Resume.pdf" target={"_blank"}>
+        <a href="Federico Merino - Resume.pdf" target={"_blank"}>
           <StyledButton variant={"contained"} type={"submit"} innerText={"Curriculum Vitae"} color={"#64ffda"} bgHover={"rgba(100,255,218,0.1)"} />
         </a>
       </div>
