@@ -11,7 +11,7 @@ const AboutMe = () => {
                         <span className='contactTitle'><span className='contactTitleNumber'>02.</span> About me</span>
                     </div>
                     <div className="whoiamDescription">
-                        I've been interest in technology since I'm a child.
+                        I've been interested in technology since I'm a child.
                         Back then I managed to create a calculator and a web browser in Visual Basic.
                         It wasn't until I got into University that I started coding again.
                         I learnt Algorithms and Data Structures in Python and Pascal, besides C and OOP concepts.
@@ -25,7 +25,6 @@ const AboutMe = () => {
                             <li><span className='liDot'>- </span>CSS</li>
                             <li><span className='liDot'>- </span>JavaScript (ES6+)</li>
                             <li><span className='liDot'>- </span>React</li>
-                            <li><span className='liDot'>- </span>Redux</li>
                             <li><span className='liDot'>- </span>React Router</li>
                             <li><span className='liDot'>- </span>React Forms</li>
                             <li><span className='liDot'>- </span>SASS</li>
