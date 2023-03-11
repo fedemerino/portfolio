@@ -1,3 +1,4 @@
+import { style } from "@mui/system";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -9,10 +10,10 @@ const Nav = () => {
   };
   return (
     <>
-    <div className="sandwichButton" onClick={handleButton}>
+      <div className="sandwichButton" onClick={handleButton}>
         <img src="hamburger.png" alt="" />
       </div>
-      <div className="nav" style={{display: buttonState && 'flex'}}>
+      <div className="nav" style={{ display: buttonState && "flex" }}>
         <Link to="/" style={{ textDecoration: "none" }}>
           <div className="navLinkContainer">
             <div className="navLink">
@@ -54,7 +55,6 @@ const Nav = () => {
           </div>
         </Link>
       </div>
-      
     </>
   );
 };

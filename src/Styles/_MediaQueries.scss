@@ -166,6 +166,12 @@
 }
 
 @media screen and (max-width: 636px) {
+  .socialMediaContainer{
+    margin-right: .5rem;
+  }
+  .homeContainer,.aboutMeContainer,.projectsContainer,.contactContainer{
+    padding-bottom: 2rem;
+  }
   .whoiam {
     margin-left: 2.5rem;
     margin-top: 0.5rem;
