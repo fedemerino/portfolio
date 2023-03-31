@@ -24,9 +24,9 @@ const AboutMe = () => {
                             <li><span className='liDot'>- </span>HTML</li>
                             <li><span className='liDot'>- </span>CSS</li>
                             <li><span className='liDot'>- </span>JavaScript (ES6+)</li>
-                            <li><span className='liDot'>- </span>React</li>
-                            <li><span className='liDot'>- </span>React Router</li>
-                            <li><span className='liDot'>- </span>React Forms</li>
+                            <li><span className='liDot'>- </span>TypeScript</li>
+                            <li><span className='liDot'>- </span>ReactJs</li>
+                            <li><span className='liDot'>- </span>NextJs</li>
                             <li><span className='liDot'>- </span>SASS</li>
                             <li><span className='liDot'>- </span>Bootstrap</li>
                             <li><span className='liDot'>- </span>MaterialUI</li>
