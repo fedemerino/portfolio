@@ -1,10 +1,26 @@
 [
     {
-        "img" : "nuestrocafe.png",
-        "name":"Starbucks Clone",
-        "description":"Starbucks Argentina design and functionalities replicated with reusable components.",
-        "tech":["React","Bootstrap","SASS"],
-        "repository":"https://github.com/fedemerino/starbucksclone",
-        "deploy":"https://starbucksclone-nine.vercel.app/"
+        "img": "nuestrocafe.png",
+        "name": "Starbucks Clone",
+        "description": "Starbucks Argentina design and functionalities replicated with reusable components.",
+        "tech": [
+            "React",
+            "Bootstrap",
+            "SASS"
+        ],
+        "repository": "https://github.com/fedemerino/starbucksclone",
+        "deploy": "https://starbucksclone-nine.vercel.app/"
+    },
+    {
+        "img": "wheretowatch.png",
+        "name": "Where to Watch",
+        "description": "Where to watch is a website where you can get information about any movie and also discover which streaming services they are available in.",
+        "tech": [
+            "React",
+            "Bootstrap",
+            "SASS"
+        ],
+        "repository": "https://github.com/fedemerino/wheretowatch",
+        "deploy": "https://wheretowatch-beta.vercel.app/"
     }
 ]
