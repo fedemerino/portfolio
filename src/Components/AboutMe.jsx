@@ -11,12 +11,15 @@ const AboutMe = () => {
                         <span className='contactTitle'><span className='contactTitleNumber'>02.</span> About me</span>
                     </div>
                     <div className="whoiamDescription">
-                        I've been interested in technology since I'm a child.
+                        {/* I've been interested in technology since I'm a child.
                         Back then I managed to create a calculator and a web browser in Visual Basic.
                         It wasn't until I got into University that I started coding again.
                         I learnt Algorithms and Data Structures in Python and Pascal, besides C and OOP concepts.
                         I'm currently working as a Fullstack Developer at Artfos and I'm also studying Systems Engineering at University.
-                        In my free time I enjoy listening to music, playing the guitar, going for a run and learning new technologies.
+                        In my free time I enjoy listening to music, playing the guitar, going for a run and learning new technologies. */}
+                        <p>I specialize in building dynamic and interactive web applications using modern web technologies. I have hands-on experience in front-end development with HTML, CSS, and JavaScript, along with popular frameworks and libraries like ReactJS, Next.js, and Vue.js. I am proficient in creating responsive and visually appealing UI designs using tools such as Bootstrap, Tailwind CSS, and Material-UI.</p>
+                        <p>On the back-end, I work in server-side development using Node.js and Express.js. I have experience with working on databases like MongoDB, MariaDB and leveraging cloud services like Firebase for scalable and secure web applications.</p>
+                        <p>I believe in writing clean and maintainable code, following best practices and industry standards. I strive to create user-centric experiences, focusing on performance and accessibility. I'm a strong believer in continuous learning and staying up-to-date with the latest trends and technologies in the ever-evolving web development landscape.</p>
                     </div>
                     <div className="tech whoiamDescription">
                         <p style={{ marginTop: '1.5rem' }}>Technologies i've worked with:</p>
