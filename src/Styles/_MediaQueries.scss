@@ -8,7 +8,7 @@
     padding-left: 10rem;
     padding-right: 5rem;
     padding-top: 0rem;
-    max-height: 75vh;
+    max-height: fit-content;
   }
   .projectsContainer {
     margin-top: 1rem;
@@ -112,6 +112,9 @@
     font-size: 1rem;
     line-height: 20px;
   }
+  .techContainer{
+    height: 9rem;
+  }
   /* CONTACT */
   .contactTitleContainer {
     margin-top: 1.2rem;
@@ -177,7 +180,7 @@
     background-size: 20vw 20vh;
   }
   .socialMediaContainer{
-    height: inherit;
+    height: fit-content;
   }
 }
 
@@ -251,6 +254,13 @@
  }
  .projectInfo{
   max-width: 90vw;
+ }
+ .techContainer{
+  max-width: 200px;
+  flex-wrap: wrap;
+ }
+ .techContainer>ul{
+  max-width: 80%;
  }
 }
 
