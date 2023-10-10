@@ -22,5 +22,19 @@
         ],
         "repository": "https://github.com/fedemerino/wheretowatch",
         "deploy": "https://wheretowatch-beta.vercel.app/"
+    },
+    {
+        "img": "sneakers.png",
+        "name": "Sneakers",
+        "description": "Sneakers is an e-commerce platform designed exclusively for sneakers enthusiasts.",
+        "tech": [
+            "NextJS",
+            "Node",
+            "Express",
+            "MongoDB",
+            "JWT"
+        ],
+        "repository": "https://github.com/fedemerino/backend",
+        "deploy": "#"
     }
 ]
