@@ -5,7 +5,7 @@ const Project = ({ img, name, description, tech, repository, deploy }) => {
     <div className="projectContainer">
       <div className="projectImg">
         <a href={deploy} className="projectImg" target={"_blank"}>
-          <img src={img} alt="" />
+          <img src={img} alt="projectImage" />
         </a>
       </div>
       <div className="projectInfo">
