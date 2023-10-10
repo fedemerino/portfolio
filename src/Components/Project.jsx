@@ -27,12 +27,12 @@ const Project = ({ img, name, description, tech, repository, deploy }) => {
           <a href={repository} target={"_blank"}>
             <img
               src="githubtransparent.png"
-              alt="instagram"
+              alt="repository"
               className="projectLink"
             />
           </a>
           <a href={deploy} target={"_blank"}>
-            <img src="external.png" alt="instagram" className="projectLink" />
+            <img src="external.png" alt="deploy" className="projectLink" />
           </a>
         </div>
       </div>
