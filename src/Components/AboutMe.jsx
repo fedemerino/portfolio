@@ -18,7 +18,7 @@ const AboutMe = () => {
                         I'm currently working as a Fullstack Developer at Artfos and I'm also studying Systems Engineering at University.
                         In my free time I enjoy listening to music, playing the guitar, going for a run and learning new technologies. */}
                         <p>I specialize in building dynamic and interactive web applications using modern web technologies. I have hands-on experience in front-end development with HTML, CSS, and JavaScript, along with popular frameworks and libraries like ReactJS, Next.js, and Vue.js. I am proficient in creating responsive and visually appealing UI designs using tools such as Bootstrap, Tailwind CSS, and Material-UI.</p>
-                        <p>On the back-end, I work in server-side development using Node.js and Express.js. I have experience with working on databases like MongoDB, MariaDB and leveraging cloud services like Firebase for scalable and secure web applications.</p>
+                        <p>On the back-end, I work in server-side development using Node.js and Laravel. I have experience with working on databases like MongoDB, MariaDB and leveraging cloud services like Firebase for scalable and secure web applications.</p>
                         <p>I believe in writing clean and maintainable code, following best practices and industry standards. I strive to create user-centric experiences, focusing on performance and accessibility. I'm a strong believer in continuous learning and staying up-to-date with the latest trends and technologies in the ever-evolving web development landscape.</p>
                     </div>
                     <div className="tech whoiamDescription">
@@ -30,9 +30,10 @@ const AboutMe = () => {
                             <li><span className='liDot'>- </span>TypeScript</li>
                             <li><span className='liDot'>- </span>ReactJs</li>
                             <li><span className='liDot'>- </span>NextJs</li>
-                            <li><span className='liDot'>- </span>Redux</li>
+                            <li><span className='liDot'>- </span>Redux Toolkit</li>
                             <li><span className='liDot'>- </span>Vue</li>
                             <li><span className='liDot'>- </span>PHP</li>
+                            <li><span className='liDot'>- </span>Laravel</li>
                             <li><span className='liDot'>- </span>Node</li>
                             <li><span className='liDot'>- </span>Express</li>
                             <li><span className='liDot'>- </span>MongoDB</li>
