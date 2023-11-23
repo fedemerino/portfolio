@@ -38,7 +38,6 @@ const Contact = () => {
     }
 
     await addDoc(collection(db, 'messages'), msg)
-    //await setDoc(doc(db, "messages", data.email), msg); data.email would be DOC ID
 
   }
   return (
