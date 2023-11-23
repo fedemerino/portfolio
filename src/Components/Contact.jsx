@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
         <div className='contactTextContainer'>
           <p className='contactText'>If you want to get in touch with me, either for work, for project ideas, or anything
-            you'd like to talk about, feel free to send an email to <strong>federicomerinodev@gmail.com</strong> or fill in the form below.</p>
+            you'd like to talk about, feel free to send an email to <strong>fedemerino00@gmail.com</strong> or fill in the form below.</p>
         </div>
         <div>
           <form
