@@ -23,7 +23,7 @@ const WhoIAm = () => {
           <a href="https://www.instagram.com/federicomerino_/" target={"_blank"}>
             <img src="instagram2.png" alt="instagram" className="social" />
           </a>
-          <a href="mailto:federicomerinodev@gmail.com" className="social socialEmail">federicomerinodev@gmail.com</a>
+          <a href="mailto:fedemerino00@gmail.com" className="social socialEmail">fedemerino00@gmail.com</a>
         </div>
       </div>
     </div>
